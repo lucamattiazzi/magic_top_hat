@@ -6,6 +6,10 @@ I only recently discovered how that worked, and apparently it was dunder methods
 
 So I decided to implement something similar in Python: you can import any method whatsoever from this magical `magic_top_hat`, even if the module itself seems empty!
 
+```bash
+pip install magic-top-hat
+```
+
 ```python
 import magic_top_hat
 
