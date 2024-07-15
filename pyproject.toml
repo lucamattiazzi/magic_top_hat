@@ -1,9 +1,13 @@
 [project]
 name = "magic_top_hat"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.2.0"
+description = "Let someone else write your code. And trust them blindly."
 authors = [{ name = "Luca Mattiazzi", email = "l.d.mattiazzi@gmail.com" }]
-dependencies = ["openai>=1.35.13", "python-dotenv>=1.0.1"]
+dependencies = [
+    "openai>=1.35.13",
+    "python-dotenv>=1.0.1",
+    "anthropic>=0.31.1",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
