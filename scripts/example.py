@@ -1,7 +1,9 @@
 # import os
+import os
 from datetime import datetime
 
 from dotenv import load_dotenv
+
 from magic_top_hat import (
     get_day_out_of_datetime,
     random_dice_roll,
@@ -10,7 +12,8 @@ from magic_top_hat import (
 )
 
 load_dotenv()
-# os.environ["I_DONT_TRUST_ROBOTS"] = "True"
+os.environ["I_DONT_TRUST_ROBOTS"] = "True"
+# os.environ["I_DONT_TRUST_ROBOTS"] = None
 
 
 def get_corrected_dice_roll():
